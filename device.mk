@@ -114,7 +114,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
     camera.device@1.0-impl \
-    libshims_atomic
+    libshims_atomic \
+    libshims_camera
 
 # Charger
 WITH_LINEAGE_CHARGER := false
