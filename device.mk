@@ -194,6 +194,10 @@ PRODUCT_PACKAGES += \
     FMRadio \
     libfmjni
 
+# TextClassifier smart selection model files
+PRODUCT_PACKAGES += \
+    textclassifier.smartselection.bundle1
+
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.onyx
