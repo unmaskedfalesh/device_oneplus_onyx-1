@@ -114,11 +114,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
     camera.device@1.0-impl \
-    camera.msm8974 \
-    libboringssl-compat \
-    libstlport \
-    libshims_atomic \
-    Snap
+    libshims_atomic
 
 # Charger
 WITH_LINEAGE_CHARGER := false
