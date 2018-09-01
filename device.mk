@@ -119,6 +119,10 @@ PRODUCT_PACKAGES += \
     libshims_camera \
     libshims_camera_parameters
 
+# Camera configurations
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/external_camera_config.xml:system/vendor/etc/external_camera_config.xml
+
 # Charger
 WITH_LINEAGE_CHARGER := false
 PRODUCT_PACKAGES += \
