@@ -193,6 +193,9 @@ TARGET_LD_SHIM_LIBS := \
 # SnapDragon LLVM Compiler
 TARGET_USE_SDCLANG := true
 
+# Vendor security patch level
+VENDOR_SECURITY_PATCH := 2016-11-10
+
 # Wifi
 BOARD_HAS_QCOM_WLAN              := true
 BOARD_WLAN_DEVICE                := qcwcn
