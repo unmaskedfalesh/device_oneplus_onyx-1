@@ -232,6 +232,11 @@ PRODUCT_PACKAGES += \
     libnl_2 \
     libtinyxml
 
+# OnyxParts
+PRODUCT_PACKAGES += \
+    OnyxParts
+
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power@1.1-service.onyx
@@ -306,4 +311,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.heapmaxfree=8m
 
 # Inherit from oppo-common
-$(call inherit-product, device/oppo/common/common.mk)
+#$(call inherit-product, device/oppo/common/common.mk)
