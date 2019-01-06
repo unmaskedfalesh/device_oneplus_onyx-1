@@ -109,11 +109,7 @@ PRODUCT_PACKAGES += \
 
 # Bluetooth
 PRODUCT_PACKAGES += \
-<<<<<<< HEAD
-#    android.hardware.bluetooth@1.0-impl \
-=======
-    android.hardware.bluetooth@1.0-impl.bacon \
->>>>>>> e17bde0... bacon: Import modified android.hardware.bluetooth@1.0-impl
+    android.hardware.bluetooth@1.0-impl.onyx \
     libbt-vendor
 
 # Camera
