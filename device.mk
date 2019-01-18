@@ -109,7 +109,7 @@ PRODUCT_PACKAGES += \
 
 # Bluetooth
 PRODUCT_PACKAGES += \
-    android.hardware.bluetooth@1.0-impl \
+#    android.hardware.bluetooth@1.0-impl \
     libbt-vendor
 
 # Camera
@@ -233,8 +233,8 @@ PRODUCT_PACKAGES += \
     libtinyxml
 
 # OnyxParts
-PRODUCT_PACKAGES += \
-    OnyxParts
+#PRODUCT_PACKAGES += \
+#   OnyxParts
 
 
 # Power
@@ -311,4 +311,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.heapmaxfree=8m
 
 # Inherit from oppo-common
-#$(call inherit-product, device/oppo/common/common.mk)
+$(call inherit-product, device/oppo/common/common.mk)
