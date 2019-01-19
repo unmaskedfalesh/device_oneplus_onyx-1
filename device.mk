@@ -312,3 +312,14 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Inherit from oppo-common
 $(call inherit-product, device/oppo/common/common.mk)
+
+# Telephony
+PRODUCT_PACKAGES += \
+    telephony-ext \
+    ims-ext-common \
+    qti-telephony-common
+
+ PRODUCT_BOOT_JARS += \
+    telephony-ext
+
+
