@@ -1,19 +1,14 @@
 [
   {
-    "repository" : "Potatodevices/device_oppo_common",
+    "repository" : "device_oppo_common",
     "target_path": "device/oppo/common"
   },
   {
-    "repository":  "PotatoDevices/kernel_oneplus_onyx",
+    "repository":  "kernel_oneplus_onyx",
     "target_path": "kernel/oneplus/onyx"
   },
   {
-    "repository" : "PotatoDevices/vendor_oneplus_onyx",
+    "repository" : "vendor_oneplus_onyx",
     "target_path": "vendor/oneplus/onyx"
-  },
-  {
-    "repository" : "Pie-onyx/hardware_qcom_bt",
-    "target_path": "hardware/qcom/bt-caf"
-    "branch": "aosp-9.0_caf"
   }
 ]
