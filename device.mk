@@ -319,3 +319,6 @@ PRODUCT_PACKAGES += \
     telephony-ext
 
 
+# dirac support
+PRODUCT_PACKAGES += \
+	onyxparts
