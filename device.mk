@@ -320,5 +320,5 @@ PRODUCT_PACKAGES += \
 
 
 # dirac support
-PRODUCT_PACKAGES += \
-	onyxparts
+#PRODUCT_PACKAGES += \
+#	onyxparts
