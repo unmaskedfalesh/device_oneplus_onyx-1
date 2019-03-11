@@ -319,6 +319,9 @@ PRODUCT_PACKAGES += \
     telephony-ext
 
 
+<<<<<<< HEAD
 # dirac support
 #PRODUCT_PACKAGES += \
 #	onyxparts
+=======
+>>>>>>> parent of ba1107c... onyx : add dirac support
