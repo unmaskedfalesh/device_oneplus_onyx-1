@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/potato_onyx.mk
+    $(LOCAL_DIR)/rr_onyx.mk

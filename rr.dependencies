@@ -1,0 +1,26 @@
+[
+  {
+    "remote": "github",
+    "repository": "tapanrgohil/kernel_oneplus_onyx",
+    "target_path": "kernel/oneplus/onyx",
+    "branch": "lineage-16.0"
+  },
+  {
+    "remote": "github",
+    "repository": "tapanrgohil/vendor_oneplus_onyx",
+    "target_path": "vendor/oneplus/onyx",
+    "branch": "lineage-16.0"
+  },
+  {
+    "remote": "github",
+    "repository": "tapanrgohil/android_device_oppo_common",
+    "target_path": "device/oppo/common",
+    "branch": "lineage-16.0"
+  },
+  {
+    "remote": "github",
+    "repository": "LineageOS/android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+    "branch": "lineage-16.0"
+  }
+]
